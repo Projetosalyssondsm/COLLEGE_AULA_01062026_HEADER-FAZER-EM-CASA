@@ -1,0 +1,45 @@
+ul {
+    display: flex;
+    justify-content: center; /* centraliza os itens */
+    list-style: none; /* remove as bolinhas */
+    gap: 60px; /* espaço entre os itens */
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#unico{
+ font-weight: bold;
+ text-decoration: none;
+ color: red;
+}
+
+#logo{
+    width:200px;
+    height:200px;
+    
+}
+
+#SectionHeader{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#DivHeader{
+    display: flex;
+    
+    width:250px;
+    height:50px;
+
+}
+
+input {
+  display: block;        /* Transforma o input em um bloco */
+  margin-left: auto;     /* Empurra para a direita */
+  margin-right: auto;    /* Empurra para a esquerda */
+  width: 800px;              /* Defina uma largura fixa para a centralização funcionar */
+}
